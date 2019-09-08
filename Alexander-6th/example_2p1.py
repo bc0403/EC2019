@@ -1,0 +1,1 @@
+print(f"An electric iron draws 2 A at 120 V. Its resistance is {120/2} ohm.")
