@@ -1,5 +1,5 @@
 # power
-p = 15*240  # W
+p = 10*115  # W
 
 # result
-print(f"It takes {180e3/p:.4f} s to consume 180 kJ")
+print(f"It consumed {p*6:.4f} Wh")
