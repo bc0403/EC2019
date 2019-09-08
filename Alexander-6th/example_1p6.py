@@ -1,0 +1,1 @@
+print(f"a 100 W electric bulb consume {100*2*3600:.4f} J energy in two hours")
