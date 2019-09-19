@@ -21,3 +21,6 @@ R2 = 25
 tau2 = L/R2
 i2 = ioo + (i2 - ioo)*exp(-1*(t2)/tau2)
 pprint(i2)
+
+print(i1.subs(t, 1))
+print(i2.subs(t2, 3-2))
