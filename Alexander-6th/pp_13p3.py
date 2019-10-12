@@ -25,5 +25,9 @@ i1 = abs(I1)*sp.cos(omega*t + phase(I1))
 i2 = abs(I2)*sp.cos(omega*t + phase(I2))
 E = 0.5*2*i1**2 + 0.5*1*i2**2 - 1*i1*i2
 print(f"energy at t = 1.5 s: {(E.subs(t, 1.5)):.4f} J")
+print("i1:")
+sp.pprint(i1)
+print("i2:")
+sp.pprint(i2)
 
 
